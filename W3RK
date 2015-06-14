@@ -1,0 +1,165 @@
+function reverse(s) {
+  return s.split('').reverse().join('');
+};
+
+======================================================
+
+function factorial(n) {
+
+    var x = n-1;
+    var result = n;
+
+    while (x > 0) {
+      result = result * x;
+      x--;
+    };
+
+  return result;
+}
+
+======================================================
+
+function factorial2 (n) {
+  if (n === 0) return 1;
+  return n * factorial2(n - 1);
+}
+
+======================================================
+
+function sum (x,y) {
+
+  var z = x + y;
+
+  return z;
+}
+
+======================================================
+
+function longestword(string) {
+    var str = string.split(' ');
+    var longest = 0;
+    var word = null;
+    for (var i = 0; i < str.length; i++) {
+        if (longest < str[i].length) {
+            longest = str[i].length;
+            word = str[i];
+        }
+    }
+    return word;
+}
+
+======================================================
+
+function num(n) {
+
+  var x = n
+  var y = 0
+  
+
+  while (y < n) {
+    x += y;
+    y++;
+  };
+
+  return x;
+}
+
+======================================================
+
+function time_conversion(x) {
+
+  var minutes = x;
+  var hours = (minutes/60) - ((minutes % 60)/60);
+  var remainder = minutes % 60;
+
+  if (remainder < 10) {
+    return hours + ":" + "0" + remainder;
+  };
+
+ return hours + ":" + remainder;
+
+}
+
+======================================================
+
+function count_vowels(string) {
+
+  var str = string.match(/[a,e,i,o,u]/g);
+
+  return str.length;
+
+}
+
+======================================================
+
+function palindrome(string) {
+
+  var str = string;
+  var strRev = string.split('').reverse().join('');
+
+
+  if (str == strRev) {
+    return true
+  }
+
+  else if (str !== strRev) {
+    return false
+  };
+
+}
+ 
+======================================================
+
+function nearby_az(string) {
+
+  var str = string.split('').match(/[az]/g);
+  var str1 = string.split('').match(/["a z"]/g);
+  var str2= string.split('').match(/["a  z"]/g);
+
+  if (str.length == str1.length) {
+    return true
+  }
+
+  else if (str.length == str2.length) {
+    return true
+  }
+
+  else if (str.length !== str1.length || str2.length) {
+    return false
+  };
+
+}
+
+======================================================
+
+function nearby_az(string) {
+
+  var idx1 = 0
+  var idx2 = idx1 + 1
+
+  while (idx1 < string.length) {
+    if (string[idx1] != "a") {
+      idx1 += 1;
+    }
+  };
+
+
+  while (idx2 < string.length) && (idx2 <= (idx1 + 3)) {
+    if (string[idx2] == "z") {
+      return true}
+
+    else if (string[idx2] != "z") {
+    idx2 += 1;
+
+    idx1 += 1;
+
+    return false;
+  };
+
+  }
+
+
+
+
+
+
