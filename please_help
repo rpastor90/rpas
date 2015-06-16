@@ -1,0 +1,28 @@
+function two_sums(nums) {
+
+
+
+for (var x = 0, y = x + 1; (x < nums.length) && (y < nums.length); y++, x++) {
+
+
+  if (nums[x] + nums[y] == 0) {
+    return (x + "," + y);
+  };
+
+};
+
+  return "nil";
+}
+
+
+/*
+
+Regarding the problem: 
+create a function that can test whether two numbers in an array equals zero. 
+if yes, the function should return the location of the numbers in the array.
+if not, the function should return "nil".
+
+My problem with this code is the it doesn't test every "x" against every "y"
+  - How do that??
+  
+*/
