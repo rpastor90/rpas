@@ -1,0 +1,17 @@
+//solved
+
+function two_sums(nums) {
+  var x = 0;
+    while (x < nums.length) {
+      var y = x+1;
+
+      while (y < nums.length) {
+        if (nums[x] + nums [y] == 0) {
+          return (x + "," + y);
+        };
+        y++;
+      };
+      x++;
+    };
+    return "nil";
+  }
