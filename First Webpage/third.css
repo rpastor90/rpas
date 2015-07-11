@@ -1,0 +1,36 @@
+.profile {
+	float: left;
+	padding-left: 20px;
+}
+
+.Header {
+	background-color: #F8F8F8; 
+}
+
+.Header h1 {
+	font: helvetica;
+	font-size: 50px;
+	margin-left: 20px;
+	padding-right: 200px;
+	padding-top: 50px;
+
+}
+
+.Header p {
+	font: helvetica;
+	padding-right: 200px;
+	padding-top: 0px;
+}
+
+.findMe {
+	padding-left: 0px;
+	height: 10px;
+	width: 100px;
+	display: inline;
+}
+
+.aboutMe {
+	font: helvetica;
+	font-size: 18px;
+	text-align: justify;
+}

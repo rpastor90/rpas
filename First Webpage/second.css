@@ -1,0 +1,76 @@
+.profile {
+	float: left;
+	padding-left: 20px;
+}
+
+.Header {
+	background-color: #F8F8F8; 
+}
+
+.Header h1 {
+	font: helvetica;
+	font-size: 50px;
+	margin-left: 20px;
+	padding-right: 200px;
+	padding-top: 50px;
+
+}
+
+.Header p {
+	font: helvetica;
+	padding-right: 200px;
+	padding-top: 0px;
+}
+
+.findMe {
+	padding-left: 0px;
+	height: 10px;
+	width: 100px;
+	display: inline;
+}
+
+.Goku {
+	position: absolute;
+	width: 100%;
+	margin-right: 20px;
+	float: left;
+	padding-left: 250px;
+}
+
+.Goku p {
+	padding-left: 30px;
+}
+
+.Frieza {
+	position: relative;
+	width: 100%;
+	padding-right: 20px;
+	padding-left: 690px;
+}
+
+.Frieza p {
+	padding-left: 30px;
+}
+
+.Game {
+	position: relative;
+	width: 100%;
+	padding-left: 375px;
+}
+
+
+//Simple CSS
+body{
+
+	text-align:center;
+	
+}
+
+.box{
+
+	text-align:left;
+	width:auto;
+	height:auto;
+	
+
+
